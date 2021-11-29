@@ -15,6 +15,6 @@ namespace kurs_26112021_53_OOP_Example1
     {
         Gıda=1,
         Elektronik=2,
-        Temizlil=3
+        Temizlik=3
     };
 }

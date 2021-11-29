@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace kurs_26112021_53_OOP_Example1.Class
+namespace kurs_26112021_53_OOP_Example1
 {
     class Musteri
     {
@@ -22,7 +22,7 @@ namespace kurs_26112021_53_OOP_Example1.Class
         public bool MusterininDogumGunumu()
         {
             bool kontrol = false;
-            kontrol = (DogumTarihi.Date == DateTime.Now.Date && DogumTarihi.Month == DateTime.Now.Month) ? true : false;
+            kontrol = (DogumTarihi.Day == DateTime.Now.Day && DogumTarihi.Month == DateTime.Now.Month) ? true : false;
             return kontrol;
         }
         public void MusteriBilgileriYazdir()

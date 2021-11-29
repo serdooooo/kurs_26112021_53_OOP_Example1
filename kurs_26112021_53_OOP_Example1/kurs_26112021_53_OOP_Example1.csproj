@@ -44,9 +44,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Enum.cs" />
-    <Compile Include="Class\Musteri.cs" />
-    <Compile Include="Class\Urun.cs" />
-    <Compile Include="Class\UrunSepeti.cs" />
+    <Compile Include="Musteri.cs" />
+    <Compile Include="Urun.cs" />
+    <Compile Include="UrunSepeti.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
